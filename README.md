@@ -23,3 +23,78 @@ Borrow a book by entering its ID
 Return a book by entering its ID
 Exit the program
 The program should perform input validation and provide appropriate feedback to the user for each operation.
+
+
+output :-
+Library Management System
+1. Add Book
+2. Display Books
+3. Borrow Book
+4. Return Book
+5. Exit
+Enter your choice (1-5): 1
+Enter Book ID: 101
+Enter Book Title: premalekhanam
+Enter Author: basheer
+Book added successfully.
+
+Library Management System
+1. Add Book
+2. Display Books
+3. Borrow Book
+4. Return Book
+5. Exit
+Enter your choice (1-5): 1
+Enter Book ID: 102
+Enter Book Title: aadujeevitham
+Enter Author: benyamin
+Book added successfully.
+
+Library Management System
+1. Add Book
+2. Display Books
+3. Borrow Book
+4. Return Book
+5. Exit
+Enter your choice (1-5): 2
+ID: 101 Title: premalekhanam Author: basheer Status: Available
+ID: 102 Title: aadujeevitham Author: benyamin Status: Available
+
+Library Management System
+1. Add Book
+2. Display Books
+3. Borrow Book
+4. Return Book
+5. Exit
+Enter your choice (1-5): 3
+Enter Book ID to borrow: 102
+You borrowed: aadujeevitham
+
+Library Management System
+1. Add Book
+2. Display Books
+3. Borrow Book
+4. Return Book
+5. Exit
+Enter your choice (1-5): 3
+Enter Book ID to borrow: 203
+Book ID not found.
+
+Library Management System
+1. Add Book
+2. Display Books
+3. Borrow Book
+4. Return Book
+5. Exit
+Enter your choice (1-5): 4
+Enter Book ID to return: 102
+You returned: aadujeevitham
+
+Library Management System
+1. Add Book
+2. Display Books
+3. Borrow Book
+4. Return Book
+5. Exit
+Enter your choice (1-5): 5
+Exiting Library System.
